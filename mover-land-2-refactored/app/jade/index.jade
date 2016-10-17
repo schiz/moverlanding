@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    title Mover - меняем порядок вещей
+
+    //- Responsive
+    meta(name="viewport" content="width=device-width, initial-scale=0.7")
+    //- meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+    meta(name="apple-mobile-web-app-capable" content="yes")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge, chrome=1")
+    meta(name="HandheldFriendly" content="true")
+
+    //- Styles
+    link(rel="stylesheet", href="css/styles.css")
+
+  body
+    #nav.bg0.hidebg
+      ul.top-menu
+        li.logo
+          a(href="/")
+            i.s-global.s-logo1
+        li
+          a(href="" onclick="return go('#social')") О MOVER
+        li
+          a(href="" onclick="return go('#appstore')") Приложение MOVER
+        li
+          a(href="" onclick="return go('#tariff')") Тарифы
+        li
+          a(href="" onclick="return go('#order')") Заказать
+        li
+          a(href="" onclick="return go('#support')") Помощь
+        li
+          a(href="" onclick="return go('#connection')") Стать водителем
+      .enter
+        a#enter(href="") Войти
+      .clear
+
+    .screen.s1
+      .cd-content
+        .c1-logo
+          i.s-global.s-img01
+        .text-center-white Городской мобильный перевозчик №1
+        .c1-but(style="width: 438px; height: 56px;")
+          .try.find-employer.email Найти перевозчика
+          .app-store
+            i.s-global.s-img02
+
+    .screen.s2
+      .cd-content
+        .counters
+          .counterss.cnt-left
+            span.cnts1(data-from="100" data-to="352" data-interval="5" data-step="1") 352
+            .notice Успешных перевозок
+          .counterss.cnt-right
+            span.cnts1(data-from="100" data-to="278" data-interval="5" data-step="1") 278
+            .notice Подключенных водителей
+        div.transport-to-better
+          .title-black-top ПЕРЕВОЗКИ К ЛУЧШЕМУ
+          .line
+          .text-grey-center Мы собрали лучших перевозчиков города и объединили<br>в один понятный и удобный сервис для людей.<br>Представляем вам – MOVER!
+
+    //- start #####
+    #social.screen.s3(style="position: relative")
+      .cd-content
+        .soc
+          ul
+            li
+              i.s-global.s-soc_01
+            li.trans
+              a(href="https://www.facebook.com/movermoscow" target="_blank")
+                i.s-global.s-fb
+            li
+              i.s-global.s-soc_03
+            li.trans
+              a(href="https://vk.com/mover24" target="_blank")
+                i.s-global.s-vk
+            li
+              i.s-global.s-soc_03
+
+            li.trans
+              a(href="https://twitter.com/Mover_Russia" target="_blank")
+                i.s-global.s-twi
+            li
+              i.s-global.s-soc_03
+
+            li.trans
+              a(href="https://instagram.com/movermoscow/" target="_blank")
+                i.s-global.s-inst
+            li
+              i.s-global.s-soc_09
+
+        .clear
+        .title-black-top.white КЛИЕНТЫ РАССКАЖУТ ЛУЧШЕ НАС
+        .line
+        .text-grey-center(style="margin-bottom: 20px") Для нас одинаково важна любая ваша перевозка - <br>от маленькой коробки до концертного органа.
+        .c2-9.c2-9-1.change
+          ul(style="width: 292px")
+            li.active Соц. сети
+            li Отзывы
+            li Блог
+          .clear
+        map(name="socm")
+          area(shape="rect" href="https://www.facebook.com/movermoscow/photos/a.1215612375132583.1073741828.1175404725820015/1227773607249793/?type=3&theater" coords="0,0,215,365")
+          area(shape="rect" href="https://twitter.com/Mover_Russia/status/657169909525454848" coords="235,0,453,365")
+          area(shape="rect" href="https://www.facebook.com/movermoscow/photos/a.1218997211460766.1073741829.1175404725820015/1233685389991948/?type=3&theater" coords="473,0,688,365")
+          area(shape="rect" href="https://www.facebook.com/movermoscow/photos/a.1215612375132583.1073741828.1175404725820015/1233291360031351/?type=3&theater" coords="709,0,923,365")
+          area(shape="rect" href="https://twitter.com/Mover_Russia/status/674564967065133056" coords="944,0,1160,365")
+
+        .c2-10.eq.fadeInd
+          img(src="css/bkg/netw.png" alt="" usemap="#socm").clients-tell-about-us
+          .clear
+
+        .c2-10.eq(style="position: relative;")
+          .jcarousel
+            ul
+              li
+                .c2-10-8
+                  i.s-global.s-ql
+                  .c2-10-9 Надёжные и профессиональные ребята. Все чётко! Надеемся на дальнейшее плодотворное сотрудничество.
+                  i.s-global.s-qr
+                .clear
+                .c2-10-7
+                  i.s-global.s-otziv3
+                  div 8bit Studio
+              li
+                .c2-10-8
+                  i.s-global.s-ql
+                  .c2-10-9 Отличный сервис! В этой компании работают приятные и интересные люди. Отдельное спасибо за замену лампочки)
+                  i.s-global.s-qr
+                .clear
+                .c2-10-7
+                  i.s-global.s-otziv1
+                  div Анна
+
+              li
+                .c2-10-8
+                  i.s-global.s-ql
+                  .c2-10-9 Всё сделали даже раньше срока! Водитель супер адекватный - бывший учитель физкультуры)
+                  i.s-global.s-qr
+                .clear
+                .c2-10-7
+                  i.s-global.s-otziv2
+                  div Михаил
+
+          .jcarousel-b.jcarousel-prev
+            i.s-global.s-prev
+          .jcarousel-b.jcarousel-next
+            i.s-global.s-next
+
+        .c2-10.eq.blog
+          a(href="https://spark.ru/startup/mover/blog/12123/prevraschaem-kromeshnij-ad-gruzoperevozok-v-slazhennij-mehanizm")
+            img(src="css/bkg/blog1.png", alt="" width="468" height="365")
+          div
+          a(href="https://spark.ru/startup/mover/blog/12555/50-ottenkov-pereezda")
+            img(src="css/bkg/blog2.png", width="468" height="365")
+        .clear
+    //- end #####
+
+    .screen.s13
+      .cd-content
+        ul.numbers
+          li
+            .num1(data-from="150" data-to="365" data-interval="8" data-step="1") 153
+            .line
+            .text1 удачных для переезда<br>дней в году
+          li
+            .num1(data-from="500" data-to="841" data-interval="5" data-step="1") 502
+            .line
+            .text1 пройденных грузчиками<br>этажей
+          li
+            .num1(data-from="400" data-to="1256" data-interval="4" data-step="3") 420
+            .line
+            .text1 килограмм поднятых<br>одним грузчиком
+          li
+            .num1(data-from="30000" data-to="70507" data-interval="3" data-step="124") 32413
+            .line
+            .text1 километров пройдено<br>водителями
+
+    #appstore.screen.s4.s456
+      .cd-content
+        .c22-3
+          .title-black-top Свободу грузоперевозкам!
+          .line(style="margin: 0; width: 200px")
+          .c22-3-9 Выберите выгодный для вас тариф, укажите откуда забрать груз - остальное за нами!
+          .siphone.a1 Быстрое оформление заказа
+            i.s-global.s-fast
+          .siphone.a7 Удобный интерфейс
+            i.s-global.s-ui
+          .siphone.a8 Выгодные тарифы
+            i.s-global.s-money
+
+    .screen.s5.s456
+      .cd-content
+        .c22-3
+          .title-black-top.white Вы в дороге - мы на связи
+          .line(style="margin: 0; width: 200px; border-color: #FFFFFF")
+          .c22-3-9.white Полный контроль перевозки и круглосуточная поддержка. Мобильно.
+          .siphone.a6 Быстрая подача авто
+            i.s-global.s-timer
+          .siphone.a4 Отслеживание заказа
+            i.s-global.s-geo
+          .siphone.a5 Помощь 24/7
+            i.s-global.s-help
+
+    .screen.s6.s456
+      .cd-content
+        .c22-3(style="color:#FFFFFF")
+          .title-black-top.white Проверьте Mover на скорость
+          .line(style="margin: 0; width: 200px")
+          .c22-3-9 Самые быстрые перевозчики столицы доступны в 5 касаний! Проверим?
+          .siphone.a3 Проверенные водители
+            i.s-global.s-driver
+          .siphone.a2 Бонусы за перевозки
+            i.s-global.s-cup
+          .siphone.a9 Положительные эмоции
+            i.s-global.s-love
+          .appd Скачайте приложение MOVER
+          .app-store
+            i.s-global.s-img02
+
+    #tariff.screen.s7
+      .cd-content(style="position: relative")
+        .title-black-top НАШИ ТАРИФЫ
+        .line
+        .c4-2
+          img#carfade(src="css/bkg/s.png", alt="")
+        .c4-3 Подача<br>машины<br>за 30 мин
+        .c4-4 Быстрая подача грузовой машины - залог быстрой перевозки.
+        .c2-10
+          ul.c3-ul
+            li(data-type="s")
+              .xt1
+                img(src="css/bkg/s1.png", alt="")
+              .c2-3xt2
+              .p0
+                span.p1 ОТ
+                span.p2 400
+                span.p3 р/ч
+              .stuff.st1
+                i.s-global.s-furn_ico_1
+                i.s-global.s-furn_ico_1_a
+              .b1 Грузоподъемность:
+                span до 1 т
+              .b1 Доп. час работы:
+                span от 400 р
+              .b1 Мин заказ:
+                span 1500 р. за 2 ч
+              .try.tariff-s Подробнее
+
+            li(data-type="m")
+              .xt1
+                img(src="css/bkg/m1.png", alt="")
+              .c2-3.xt2
+              .p0
+                span.p1 ОТ
+                span.p2 500
+                span.p3 р/ч
+              .stuff.st2
+                i.s-global.s-furn_ico_2
+                i.s-global.s-furn_ico_2_a
+              .b1 Грузоподъемность:
+                span до 2 т
+              .b1 Доп. час работы:
+                span от 500 р
+              .b1 Мин заказ:
+                span 1600 р. за 2 ч
+              .try.tariff-m Подробнее
+
+            li(data-type="l")
+              .xt1
+                img(src="css/bkg/l1.png", alt="")
+              .c2-3.xt2
+              .p0
+                span.p1 ОТ
+                span.p2 600
+                span.p3 р/ч
+              .stuff.st3
+                i.s-global.s-furn_ico_3
+                i.s-global.s-furn_ico_3_a
+              .b1 Грузоподъемность:
+                span до 3 т
+              .b1 Доп. час работы:
+                span от 600 р
+              .b1 Мин заказ:
+                span 3200 р. за 4 ч
+              .try.tariff-l Подробнее
+        .clear
+
+    #order.screen.s12
+      .cd-content
+        .title-black-top.white ПОПРОБУЙТЕ ПЕРЕВОЗКИ БУДУЩЕГО
+        .line
+        .text-center-white(style="padding-bottom: 15px;") Перевезите что-нибудь с MOVER прямо сейчас
+        .text-center-white
+          img(src="css/bkg/from-to_03.png", alt="")
+          .tmov(onclick="return go('#tariff')")!= 'Узнать больше о тарифах MOVER >'
+        .c3-4
+          input(type="text" name="" value="" placeholder="Откуда")
+          .c3-4-1
+            i.s-global.s-arr1
+          input(type="text" name="" value="" placeholder="Куда")
+        .clear
+        .c3-5
+          .try.route Попробовать
+
+    #support.screen.s8
+      .cd-content
+        .title-black-top.novis.animated-2_5.fadeIn_ ПОДДЕРЖКА ВО ВСЕМ
+        .line.animated-2_5.fadeIn_
+        .c2-9.change
+          ul(style="width: 320px")
+            li.active Хотлайн
+            li GEO
+            li Чат
+            li FAQ
+          .clear
+
+        //- HotLine
+        .c35-1.eq
+          .c35-1-1.animated-1_5.fadeInLeft_
+            img(src="css/bkg/hotline.png", alt="")
+          .c35-1-2.animated-1_5.fadeInRight_
+            .c35-1-2-1.a1 Наши лучшие специалисты по работе с клиентами готовы помочь вам в любую минуту, просто позвоните нам.
+
+        //- GEO
+        .c35-1.eq
+          .c35-1-1.animated-1_5.fadeInLeft_
+            img(src="css/bkg/path3.png", alt="")
+          .c35-1-2.animated-1_5.fadeInRight_
+            .c35-1-2-1.a1 Система отслеживания и геопозиционирования на службе вашей успешной перевозки. На любом отрезке вашего маршрута, MOVER всегда сможет решить ваши проблемы.
+
+        //- Chat
+        .c35-1.eq
+          .c35-1-1.animated-1_5.fadeInLeft_
+            img(src="css/bkg/img07.png", alt="")
+          .c35-1-2.animated-1_5.fadeInRight_
+            .c35-1-2-1.a1 Лучшие мастера слова, тонкие психологи и просто наш call centr оперативно ответит на любые ваши вопросы о сервисе.
+
+        //- FAQ
+        .c35-1.eq.fadeInd
+          .c35-1-1.animated-1_5.fadeInLeft_
+            img(src="css/bkg/support.png", alt="")
+          .c35-1-2.animated-1_5.fadeInRight_
+            .c35-1-2-1.a1 Подробная библиотека ответов на вопросы связанных с работой MOVER. Гарантируем,вы не запутаетесь.
+
+    .screen.s9
+      .cd-content.sender
+        .title-black-top.white ВМЕСТЕ МЫ НЕЗАМЕНИМЫ
+        .line
+        .text-center-white MOVER - открытая платформа<br>с идеей равенства и партнерства, способная изменить мир грузоперевозок раз и навсегда. Мы открыты к любым видам сотрудничества и предлагаем вам стать частью нашего нового мира.
+        div
+          input(type="email" name="email" value="" placeholder="Введите почту" style="width: 350px").enter-email-input
+        .c5-5
+          .try.sendMail Подключиться
+
+    #connection.screen.s10
+      .cd-content
+        .title-black-top ПОДКЛЮЧАЙТЕСЬ
+        .line
+        .text-grey-center Сделайте свой бизнес более доходным<br>и эффективным с MOVER!
+        .c2-10.c6-1
+          ul.c2-ul
+            li
+              i.s-global.s-1_4
+            li
+              i.s-global.s-3
+            li
+              i.s-global.s-3_4
+            li
+              i.s-global.s-4_4
+
+        .clear
+        .c2-10.c6-2
+          ul.c2-ul.c2-ul-1
+            li Постоянный поток заказов
+            li Передовое программное обеспечение
+            li Личный помощник 24/7
+            li Скидки от MOVER и партнеров
+        .clear
+        .c35-1.connect
+          img(src="css/bkg/img08.png", alt="").my-orders-img
+        .line1
+          .wline1.sender Хочу подключиться! Mover, перезвони мне на номер
+            input(type="text" name="phone" value="" placeholder="+7 ( ___ ) _______")
+            .try.try_black.sendMail Отправить
+
+    .screen.s11
+      .cd-content(style="position: relative")
+        .s111
+          .title-black-top.white ОСТАЛИСЬ ВОПРОСЫ?
+          .line
+          .text-center-white(style="width: auto; font-size: 20px;") Надежная команда в тесной<br>связке с мобильными технологиями
+          .c5-4.c7-3.sender
+            div
+              input(type="text" name="username" value="" placeholder="Ваше имя")
+            div
+              input(type="email" name="email" value="" placeholder="Эл. почта" style="border-radius: 0; -webkit-border-radius: 0;")
+            div
+              input(name="comment" placeholder="Опишите вашу проблему")
+            div.c35-1-3.c7-5
+              .try.sendMail(style="text-align: center;width: 400px;") Отправить
+    
+    .footer
+      .fcont
+        div
+          ul.ul2
+            li
+              ul.ul1
+                li Контакты
+                li
+                  .line.line4
+                li г.Москва, Грохольский пер., д. 28
+                li
+                  div.phon +7 (987) 654 3210
+                  a(href="mailto:info@mover24.ru") info@mover24.ru
+
+            li
+              ul.ul1
+                li Меню
+                li
+                  .line.line4
+                li
+                  a(href="" onclick="return go('#appstore')") Приложение MOVER
+                li
+                  a(href="" onclick="return go('#tariff')") Тарифы
+                li
+                  a(href="" onclick="return go('#order')") Заказать
+                li
+                  a(href="" onclick="return go('#support')") Помощь
+                li
+                  a(href="" onclick="return go('#connection')") Стать водителем
+
+            li
+              ul.ul1
+                li O MOVER
+                li
+                  .line.line4
+                li(style="width: 230px; line-height: 18px;") MOVER – сервис по поиску и подбору грузовых автомобилей и комплексных переездов. MOVER - мобильное приложение для вызова грузового такси в режиме 24\7.
+
+            li
+              div.footer-social
+                a(href="https://www.facebook.com/movermoscow" class="icons" style="margin: 0")
+                  i.s-global.s-soc_02
+                a(href="https://vk.com/mover24" class="icons Icons_Network_vk")
+                  i.s-global.s-soc_04
+                a(href="https://instagram.com/movermoscow/" class="icons Icons_Network_Instagram")
+                  i.s-global.s-soc_08
+                a(href="https://twitter.com/Mover_Russia" class="icons Icons_Network_twitter")
+                  i.s-global.s-soc_06
+                i.s-global.s-img02
+
+    .clear
+    //- .last-footer
+      .fcont.copy ООО "МУВЕР" © 2016
+
+
+    #blackout
+    #popup
+      #popup-content.popup-content
+
+
+    #containers
+      #email.sender.pwrap.pwrap1
+        img(src="images/i-phone.png", alt="")
+        .popup-title Станьте первым кто попробует MOVER в действии.<br>Примите участие в закрытом бета-тесте приложения и получите перевозку в подарок!
+        .pwrap2
+          input(type="text" name="username" value="" placeholder="Имя")
+          input(type="text" name="email" value="" placeholder="Почта")
+          .try.sendMail Отправить
+
+      #route.sender.pwrap.pwrap1
+        img(src="images/i-shest.png", alt="")
+        .popup-title Сейчас MOVER работает в тестовом режиме. Оставьте свои контакты и мы с вами свяжемся
+        .pwrap2
+          input(type="text" name="username" value="" placeholder="Имя")
+          input(type="text" name="email" value="" placeholder="Номер телефона или почта")
+          .try.sendMail Отправить
+
+      #thanks.pwrap
+        img(src="images/i-success.png", alt="")
+        .popup-title!= '<p>СПАСИБО!</p>Мы обязательно с Вами свяжемся в ближайшее время'
+          
+      #entry.pwrap
+        img(src="images/i-success.png", alt="")
+        .popup-title!= '<p>СКОРО!</p>Ещё чуть-чуть и мы вас пустим'
+
+      #tariff-s.tariffs
+        .popup-title
+          .popup-header Тариф SMALL
+            span Прекрасно подходит для квартирного переезда
+            .popup-close
+              img(src="images/close.png", alt="")
+
+          div
+            table
+              tr.fn
+                td(rowspan="2") Тип автомобиля
+                td(rowspan="2") Цена за 1 час работы<br>в пределах города Москва
+                td(rowspan="2") Цена за 1 км от МКАД
+                td(colspan="2") Минимальный заказ
+              tr
+                td.tdg в пределах МКАД
+                td.tdg с заездом в центр
+              tr
+                td Фургон
+                td(rowspan="5")!= '400 <span>руб./час</span>'
+                td(rowspan="5")!= '25 <span>руб.</span>'
+                td(rowspan="4" colspan="2")!= '1500 <span>руб.</span>'
+              tr
+                td Тент
+              tr
+                td Цельнометаллический
+              tr
+                td Рефрежератор
+              tr
+                td Бортовая
+                td(colspan="2")!= '1800 <span>руб.</span>'
+
+              br
+
+              table
+                tr.fn
+                  td Грузчики
+                  td 2 часа
+                  td Доп. час
+                tr
+                  td Обычные
+                  td!= '700 <span>руб.</span>'
+                  td!= '300 <span>руб.</span>'
+                tr
+                  td Грузчики плюс
+                  td(rowspan="2")!= '1000 <span>руб.</span>'
+                  td(rowspan="2")!= '400 <span>руб.</span>'
+                tr
+                  td Сборщик
+          .tdg1 * Цены могут меняться
+
+      #tariff-m.tariffs
+        .popup-title
+          .popup-header Тариф MEDIUM
+            span Прекрасно подходит для офисных переездов
+            .popup-close
+              img(src="images/close.png", alt="")
+
+          div
+            table
+              tr.fn
+                td(rowspan="2") Тип автомобиля
+                td(rowspan="2") Цена за 1 час работы<br>в пределах города Москва
+                td(rowspan="2") Цена за 1 км от МКАД
+                td(colspan="2") Минимальный заказ
+              tr
+                td.tdg в пределах МКАД
+                td.tdg с заездом в центр
+                
+              tr
+                td Фургон
+                td(rowspan="3")!= '500 <span>руб./час</span>'
+                td(rowspan="3")!= '30 <span>руб.</span>'
+                td(rowspan="3")!= '1600 <span>руб.</span>'
+                td(rowspan="3")!= '2100 <span>руб.</span>'
+
+              tr
+                td Тент
+              tr
+                td Рефрежератор
+              tr
+                td Удлиненная тент/фургон
+                td(rowspan="4")!= '550 <span>руб./час</span>'
+                td(rowspan="8")!= '35 <span>руб.</span>'
+                td(rowspan="4")!= '1800 <span>руб.</span>'
+                td(rowspan="4")!= '2350 <span>руб.</span>'
+              tr
+                td Фермер тент/фургон
+              tr
+                td Удлиненная фермер тент/фургон
+              tr
+                td Цельнометаллический
+              tr
+                td Бортовая
+                td(rowspan="2")!= '600 <span>руб./час</span>'
+                td(rowspan="2")!= '1900 <span>руб.</span>'
+                td(rowspan="2")!= '2500 <span>руб.</span>'
+              tr
+                td Пирамида
+              tr
+                td Удлиненная борт
+                td(rowspan="2")!= '650 <span>руб./час</span>'
+                td(rowspan="2")!= '2000 <span>руб.</span>'
+                td(rowspan="2")!= '2650 <span>руб.</span>'
+              tr
+                td Удлиненная фермер борт
+
+            br
+
+            table
+              tr.fn
+                td Грузчики
+                td 2 часа
+                td Доп. час
+              tr
+                td Обычные
+                td!= '700 <span>руб.</span>'
+                td!= '300 <span>руб.</span>'
+              tr
+                td Грузчики плюс
+                td(rowspan="2")!= '1000 <span>руб.</span>'
+                td(rowspan="2")!= '400 <span>руб.</span>'
+              tr
+                td Сборщик
+          .tdg1 * Цены могут меняться
+
+      #tariff-l.tariffs
+        .popup-title
+          .popup-header Тариф LARGE
+          span Прекрасно подходит для крупногабаритных грузоперевозок
+            .popup-close
+              img(src="images/close.png", alt="")
+          div
+            table
+              tr.fn
+                td(rowspan="2") Тип автомобиля
+                td(rowspan="2") Цена за 1 час работы<br>в пределах города Москва
+                td(rowspan="2") Цена за 1 км от МКАД
+                td(colspan="2") Минимальный заказ
+              tr
+                td.tdg в пределах МКАД
+                td.tdg с заездом в центр
+              tr
+                td Фургон
+                td(rowspan="4")!= '600 <span>руб./час</span>'
+                td(rowspan="4")!= '40 <span>руб.</span>'
+                td(rowspan="4")!= '3200 <span>руб.</span>/ 4 <span>часа</span>'
+                td(rowspan="4")!= '3800 <span>руб.</span>/ 4 <span>часа</span>'
+              tr
+                td Тент
+              tr
+                td Бортовая
+              tr
+                td Рефрежератор
+
+            br
+
+            table
+              tr.fn
+                td Грузчики
+                td 2 часа
+                td Доп. час
+              tr
+                td Обычные
+                td!= '700 <span>руб.</span>'
+                td!= '300 <span>руб.</span>'
+              tr
+                td Грузчики плюс
+                td(rowspan="2")!= '1000 <span>руб.</span>'
+                td(rowspan="2")!= '400 <span>руб.</span>'
+              tr
+                td Сборщик              
+          .tdg1 * Цены могут меняться
+
+    .thanks
+    .jcarousel-next(style="display: none")
+
+    //- Javascript
+    script(src='js/sapp.js')
+
+    //- Google analytics counter
+    script.
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-71655890-1', 'auto');
+      ga('send', 'pageview');
+
+    //- Yandex.Metrika counter
+    script.
+      (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+          try {
+            w.yaCounter34362465 = new Ya.Metrika({
+              id:34362465,
+              clickmap:true,
+              trackLinks:true,
+              accurateTrackBounce:true,
+              webvisor:true,
+              trackHash:true
+            });
+          } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+          s = d.createElement("script"),
+          f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+          d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+      })(document, window, "yandex_metrika_callbacks");
+    noscript
+      div
+        img(src="https://mc.yandex.ru/watch/34362465" style="position:absolute; left:-9999px;" alt="")
+
+    //- script.
+      var $zoho= $zoho || {livedesk:{values:{},ready:function(){}}};var d=document;s=d.createElement("script");s.type="text/javascript";s.defer=true;s.src="https://salesiq.zoho.com/support.moverlivechat/float.ls?embedname=mover";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);

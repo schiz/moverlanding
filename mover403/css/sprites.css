@@ -1,0 +1,67 @@
+html, body {
+    height:100%;
+    width: 100%;
+}
+body, div, form, li, h1, h2, h3, h4, h5, h6, input, ol, p, pre, td, textarea, th, ul {
+    margin:0;
+    padding:0;
+}
+body {
+    background: url("/images/back.png") repeat-y;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+}
+.t2{
+    margin: 0 auto;
+    width: 475px;
+    font-size: 24px;
+    font-weight: bolder;
+    border-bottom: 3px solid #ffffff;
+    line-height: 36px;
+}
+.t3 {
+    margin: 0 auto;
+    width: 475px;
+    padding: 10px;
+}
+.t31{
+    font-size: 14px;
+    width: 247px;
+}
+.icons {
+    background: url(/images/sprites1.png) no-repeat;
+    width: 42px;
+    height: 42px;
+    margin: 0 0 0 15px;
+    display: block;
+}
+.fl {
+    float: left;
+}
+.area1{
+    background: #000;
+}
+.Icons_Network_F{
+	background-position: -49px 0;
+	width: 42px;
+	height: 42px;
+}
+
+.Icons_Network_vk{
+	background-position: -148px 0;
+	width: 42px;
+	height: 42px;
+}
+
+.Icons_Network_twitter{
+	background-position: -98px 0;
+	width: 42px;
+	height: 42px;
+}
+
+.Icons_Network_Instagram{
+	background-position: 0 0;
+	width: 42px;
+	height: 42px;
+}
+

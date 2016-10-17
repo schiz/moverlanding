@@ -1,0 +1,918 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <title>Mover - меняем порядок вещей</title>
+
+    <script src="/js/jquery-2.1.4.min.js"></script>
+    <script src="/js/jquery.mousewheel.min.js"></script>
+    <script src="/js/jquery.maskedinput.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/jquery.jcarousel.min.js"></script>
+</head>
+<body>
+
+<div id="nav"  class="bg0 hidebg">
+    <ul class="top-menu">
+        <li class="logo"><a href="/"><img src="/images/logo1.png"></a></li>
+        <li><a href="" onclick="return go('#social')">О MOVER</a></li>
+        <li><a href="" onclick="return go('#appstore')">Приложение MOVER</a></li>
+        <li><a href="" onclick="return go('#tariff')">Тарифы</a></li>
+        <li><a href="" onclick="return go('#order')">Заказать</a></li>
+        <li><a href="" onclick="return go('#support')">Помощь</a></li>
+        <li><a href="" onclick="return go('#connection')">Стать водителем</a></li>
+    </ul>
+
+    <div class="enter">
+        <a id="enter" href="">Войти</a>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="screen s1">
+    <div class="cd-content">
+        <div class="c1-logo"><img src="/images/img01.png"></div>
+        <div class="text-center-white">Городской мобильный перевозчик №1</div>
+        <div class="c1-but" style="width: 438px; height: 56px;">
+            <div class="try find-employer email">Найти перевозчика</div>
+            <div class="app-store"><img src="/images/img02.png"></div>
+        </div>
+    </div>
+</div>
+
+
+<div class="screen s2">
+    <div class="cd-content" style="width: 1200px;display: block;position: relative">
+
+        <div class="counters">
+            <div class="counterss cnt-left">
+                <span class="cnts1" data-from="100" data-to="352" data-interval="5" data-step="1">352</span>
+                <div class="notice">Успешных перевозок</div>
+            </div>
+            <div class="counterss cnt-right">
+                <span class="cnts1" data-from="100" data-to="278" data-interval="5" data-step="1">278</span>
+                <div class="notice">Подключенных водителей</div>
+            </div>
+        </div>
+
+        <div class="lside">
+            <img src="/images/land-side.png">
+        </div>
+        <div style="margin-top: -80px">
+            <div class="title-black-top">ПЕРЕВОЗКИ К ЛУЧШЕМУ</div>
+            <div class="line"></div>
+            <div class="text-grey-center" >Мы собрали лучших перевозчиков города и объединили<br>в один понятный и удобный сервис для людей.<br>Представляем вам – MOVER!</div>
+        </div>
+
+
+    </div>
+</div>
+
+<!-- start ##### -->
+
+<div id="social" class="screen s3" style="position: relative">
+    <div class="cd-content">
+        <div class="soc">
+            <ul>
+                <li><img src="/images/soc_01.png" alt=""/></li>
+                <li class="trans"><a href="https://www.facebook.com/movermoscow" target="_blank"><img src="/images/soc_02.png" alt=""/></a></li>
+                <li><img src="/images/soc_03.png" alt=""/></li>
+                <li class="trans"><a href="https://vk.com/mover24" target="_blank"><img src="/images/soc_04.png" alt=""/></a></li>
+                <li><img src="/images/soc_03.png" alt=""/></li>
+                <li class="trans"><a href="https://twitter.com/Mover_Russia" target="_blank"><img src="/images/soc_06.png" alt=""/></a></li>
+                <li><img src="/images/soc_03.png" alt=""/></li>
+                <li class="trans"><a href="https://instagram.com/movermoscow/" target="_blank"><img src="/images/soc_08.png" alt=""/></a></li>
+                <li><img src="/images/soc_09.png" alt=""/></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="title-black-top white">КЛИЕНТЫ РАССКАЖУТ ЛУЧШЕ НАС</div>
+        <div class="line"></div>
+        <div class="text-grey-center" style="margin-bottom: 20px">
+            Для нас одинаково важна любая ваша перевозка - <br>от маленькой коробки до концертного органа.
+        </div>
+        <div class="c2-9 c2-9-1 change">
+            <ul style="width: 292px">
+                <li class="active">Соц. сети</li>
+                <li>Отзывы</li>
+                <li>Блог</li>
+                <!--<li>СМИ</li>-->
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <map name="socm">
+            <area shape="rect" href="https://www.facebook.com/movermoscow/photos/a.1215612375132583.1073741828.1175404725820015/1227773607249793/?type=3&theater" coords="0,0,215,365">
+            <area shape="rect" href="https://twitter.com/Mover_Russia/status/657169909525454848" coords="235,0,453,365">
+            <area shape="rect" href="https://www.facebook.com/movermoscow/photos/a.1218997211460766.1073741829.1175404725820015/1233685389991948/?type=3&theater" coords="473,0,688,365">
+            <area shape="rect" href="https://www.facebook.com/movermoscow/photos/a.1215612375132583.1073741828.1175404725820015/1233291360031351/?type=3&theater" coords="709,0,923,365">
+            <area shape="rect" href="https://twitter.com/Mover_Russia/status/674564967065133056" coords="944,0,1160,365">
+        </map>
+
+        <div class="c2-10 eq fadeInd">
+            <img src="/images/sn/netw.png" width="1160" height="365" alt="" usemap="#socm">
+            <div class="clear"></div>
+        </div>
+
+
+        <div class="c2-10 eq" style="position: relative;">
+            <div class="jcarousel">
+            <ul>
+                <li>
+                    <div class="c2-10-8">
+                        <img src="/images/ql.png">
+                        <div class="c2-10-9">
+                            Надёжные и профессиональные ребята. Все чётко!
+                            Надеемся на дальнейшее плодотворное сотрудничество.
+                        </div>
+                        <img src="/images/qr.png">
+                    </div>
+                    <div class="clear"></div>
+                    <div class="c2-10-7">
+                        <img src="/images/otziv3.jpg" alt=""/>
+                        <div>8bit Studio</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="c2-10-8">
+                        <img src="/images/ql.png">
+                        <div class="c2-10-9">
+                            Отличный сервис! В этой компании работают приятные и интересные люди. Отдельное спасибо за замену лампочки)
+                        </div>
+                        <img src="/images/qr.png">
+                    </div>
+                    <div class="clear"></div>
+                    <div class="c2-10-7">
+                        <img src="/images/otziv1.jpg" alt=""/>
+                        <div>Анна</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="c2-10-8">
+                        <img src="/images/ql.png">
+                        <div class="c2-10-9">
+                            Всё сделали даже раньше срока! Водитель супер адекватный - бывший учитель физкультуры)
+                        </div>
+                        <img src="/images/qr.png">
+                    </div>
+                    <div class="clear"></div>
+                    <div class="c2-10-7">
+                        <img src="/images/otziv2.jpg" alt=""/>
+                        <div>Михаил</div>
+                    </div>
+                </li>
+
+            </ul>
+
+            </div>
+            <div class="jcarousel-b jcarousel-prev"><img src="/images/prev.png" alt=""/></div>
+            <div class="jcarousel-b jcarousel-next"><img src="/images/next.png" alt=""/></div>
+        </div>
+
+
+        <div class="c2-10 eq blog">
+            <a href="https://spark.ru/startup/mover/blog/12123/prevraschaem-kromeshnij-ad-gruzoperevozok-v-slazhennij-mehanizm">
+                <img src="/images/blog1.png" width="468" height="365">
+            </a>
+            <div></div>
+            <a href="https://spark.ru/startup/mover/blog/12555/50-ottenkov-pereezda">
+                <img src="/images/blog2.png" width="468" height="365">
+            </a>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+</div>
+
+<!-- end ##### -->
+
+<div class="screen s13">
+    <div class="cd-content">
+        <ul class="numbers" >
+            <li>
+                <div class="num1" data-from="150" data-to="365" data-interval="8" data-step="1">153</div>
+                <div class="line"></div>
+                <div class="text1">удачных для переезда<br>дней в году</div>
+            </li>
+            <li>
+                <div class="num1" data-from="500" data-to="841" data-interval="5" data-step="1">502</div>
+                <div class="line"></div>
+                <div class="text1">пройденных грузчиками<br>этажей</div>
+            </li>
+            <li>
+                <div class="num1" data-from="400" data-to="1256" data-interval="4" data-step="3">420</div>
+                <div class="line"></div>
+                <div class="text1">киллограмм поднятых<br>одним грузчиком</div>
+            </li>
+            <li>
+                <div class="num1" data-from="30000" data-to="70507" data-interval="3" data-step="124">32413</div>
+                <div class="line"></div>
+                <div class="text1">киллометров пройдено<br>водителями</div>
+            </li>
+
+        </ul>
+
+    </div>
+</div>
+
+<div id="appstore" class="screen s4 s456">
+    <div class="cd-content">
+        <div class="c22-3" >
+            <div class="title-black-top ">Свободу грузоперевозкам!</div>
+            <div class="line" style="margin: 0; width: 200px"></div>
+            <div class="c22-3-9">
+                Выберите выгодный для вас тариф, укажите откуда забрать груз - остальное за нами!
+            </div>
+            <div class="siphone a1">Быстрое оформление заказа</div>
+            <div class="siphone a7">Удобный интерфейс</div>
+            <div class="siphone a8">Выгодные тарифы</div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="screen s5 s456">
+    <div class="cd-content">
+        <div class="c22-3">
+            <div class="title-black-top white">Вы в дороге - мы на связи</div>
+            <div class="line" style="margin: 0; width: 200px; border-color: #FFFFFF"></div>
+            <div class="c22-3-9 white">
+                Полный контроль перевозки и круглосуточная поддержка. Мобильно.
+            </div>
+            <div class="siphone a6">Быстрая подача авто</div>
+            <div class="siphone a4">Отслеживание заказа</div>
+            <div class="siphone a5">Помощь 24/7</div>
+        </div>
+
+    </div>
+</div>
+
+<div class="screen s6 s456">
+    <div class="cd-content">
+        <div class="c22-3" style="color:#FFFFFF">
+            <div class="title-black-top white">Проверьте Mover на скорость</div>
+            <div class="line" style="margin: 0; width: 200px"></div>
+            <div class="c22-3-9">
+                Самые быстрые перевозчики столицы доступны в 5 касаний! Проверим?
+            </div>
+            <div class="siphone a3">Проверенные водители</div>
+            <div class="siphone a2">Бонусы за перевозки</div>
+            <div class="siphone a9">Положительные эмоции</div>
+
+            <div class="appd">Скачайте приложение MOVER</div>
+            <div class="app-store"><img src="/images/img02.png"></div>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="tariff" class="screen s7">
+    <div class="cd-content" style="position: relative">
+        <div class="title-black-top">НАШИ ТАРИФЫ</div>
+        <div class="line"></div>
+        <div class="c4-2"><img id="carfade" src="/images/s.png"></div>
+        <div class="c4-3">Подача<br>машины<br>за 30 мин</div>
+        <div class="c4-4">Быстрая подача грузовой машины - залог быстрой перевозки.<br></div>
+        <div class="c2-10" >
+            <ul class="c3-ul">
+                <li data-type="s">
+                    <div class="xt1"><img src="/images/s1.png"></div>
+                    <div class="c2-3 xt2"></div>
+                    <div class="p0">
+                        <span class="p1">ОТ</span>
+                        <span class="p2">400</span>
+                        <span class="p3">р/ч</span>
+                    </div>
+                    <div class="stuff st1"></div>
+                    <div class="b1">Грузоподъемность: <span>до 1 т</span></div>
+                    <div class="b1">Доп. час работы: <span>от 400 р</span></div>
+                    <div class="b1">Мин заказ: <span>1500 р. за 2 ч</span></div>
+                    <div class="try tariff-s">Подробнее</div>
+                </li>
+                <li data-type="m">
+                    <div class="xt1"><img src="/images/m1.png"></div>
+                    <div class="c2-3 xt2"></div>
+                    <div class="p0">
+                        <span class="p1">ОТ</span>
+                        <span class="p2">500</span>
+                        <span class="p3">р/ч</span>
+                    </div>
+                    <div class="stuff st2"></div>
+                    <div class="b1">Грузоподъемность: <span>до 2 т</span></div>
+                    <div class="b1">Доп. час работы: <span>от 500 р</span></div>
+                    <div class="b1">Мин заказ: <span>1600 р. за 2 ч</span></div>
+                    <div class="try tariff-m">Подробнее</div>
+                </li>
+                <li data-type="l">
+                    <div class="xt1"><img src="/images/l1.png"></div>
+                    <div class="c2-3 xt2"></div>
+                    <div class="p0">
+                        <span class="p1">ОТ</span>
+                        <span class="p2">600</span>
+                        <span class="p3">р/ч</span>
+                    </div>
+                    <div class="stuff st3"></div>
+                    <div class="b1">Грузоподъемность: <span>до 3 т</span></div>
+                    <div class="b1">Доп. час работы: <span>от 600 р</span></div>
+                    <div class="b1">Мин заказ: <span>3200 р. за 4 ч</span></div>
+                    <div class="try tariff-l">Подробнее</div>
+                </li>
+
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+<div id="order" class="screen s12">
+    <div class="cd-content">
+        <div class="title-black-top white">ПОПРОБУЙТЕ ПЕРЕВОЗКИ БУДУЩЕГО</div>
+        <div class="line"></div>
+        <div class="text-center-white" style="padding-bottom: 15px;">
+            Перевезите что-нибудь с MOVER прямо сейчас
+        </div>
+        <div class="text-center-white">
+            <img src="/images/from-to_03.png" />
+            <div class="tmov" onclick="return go('#tariff')">Узнать больше о тарифах MOVER ></div>
+        </div>
+
+        <div class="c3-4">
+            <input type="text" name="" value="" placeholder="Откуда">
+            <div class="c3-4-1">
+                <img src="/images/arr1.png">
+            </div>
+            <input type="text" name="" value="" placeholder="Куда">
+        </div>
+        <div class="clear"></div>
+        <div class="c3-5">
+            <div class="try route">
+                Попробовать
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="support" class="screen s8">
+    <div class="cd-content">
+        <div class="title-black-top novis animated-2_5 fadeIn_">ПОДДЕРЖКА ВО ВСЕМ</div>
+        <div class="line animated-2_5 fadeIn_"></div>
+        <div class="c2-9 change" >
+            <ul style="width: 320px">
+                <li class="active">Хотлайн</li>
+                <li>GEO</li>
+                <li>Чат</li>
+                <li>FAQ</li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+
+        <!--HotLine-->
+        <div class="c35-1 eq">
+            <div class="c35-1-1 animated-1_5 fadeInLeft_">
+                <img src="/images/hotline.png">
+            </div>
+            <div class="c35-1-2 animated-1_5 fadeInRight_">
+                <div class="c35-1-2-1 a1">Наши лучшие специалисты по работе с клиентами готовы помочь вам в любую минуту, просто позвоните нам.</div>
+            </div>
+        </div>
+
+        <!--GEO-->
+        <div class="c35-1 eq">
+            <div class="c35-1-1 animated-1_5 fadeInLeft_">
+                <img src="/images/path3.png">
+            </div>
+            <div class="c35-1-2 animated-1_5 fadeInRight_">
+                <div class="c35-1-2-1 a1">Система отслеживания и геопозиционирования на службе вашей успешной перевозки. На любом отрезке вашего маршрута, MOVER всегда сможет решить ваши проблемы.</div>
+            </div>
+        </div>
+
+        <!--Chat-->
+        <div class="c35-1 eq animated-1_5 fadeInLeft_">
+            <div class="c35-1-1">
+                <img src="/images/img07.png">
+            </div>
+            <div class="c35-1-2">
+                <div class="c35-1-2-1 a1">Лучшие мастера слова, тонкие психологи и просто наш call centr оперативно ответит на любые ваши вопросы о сервисе.</div>
+            </div>
+        </div>
+
+        <!--FAQ-->
+        <div class="c35-1 eq fadeInd">
+            <div class="c35-1-1 animated-1_5 fadeInLeft_">
+                <img src="/images/support.png">
+            </div>
+            <div class="c35-1-2 animated-1_5 fadeInRight_">
+                <div class="c35-1-2-1 a1">Подробная библиотека ответов на вопросы связанных с работой MOVER. Гарантируем,вы не запутаетесь.</div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</div>
+
+
+<div class="screen s9">
+    <div class="cd-content sender">
+        <div class="title-black-top white">ВМЕСТЕ МЫ НЕЗАМЕНИМЫ</div>
+        <div class="line"></div>
+        <div class="text-center-white">MOVER &mdash; открытая платформа<br>с идеей равенства и партнерства, способная изменить мир грузоперевозок раз и навсегда. Мы открыты к любым видам сотрудничества и предлагаем вам стать частью нашего нового мира.</div>
+        <div class="">
+            <input type="email" name="email" value="" placeholder="Введите почту" style="width: 350px">
+        </div>
+        <div class="c5-5">
+            <div class="try sendMail">
+                Подключиться
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="connection" class="screen s10">
+    <div class="cd-content">
+        <div class="title-black-top">ПОДКЛЮЧАЙТЕСЬ</div>
+        <div class="line"></div>
+        <div class="text-grey-center">Сделайте свой бизнес более доходным<br>и эффективным с MOVER!</div>
+        <div class="c2-10 c6-1">
+            <ul class="c2-ul">
+                <li><img src="/images/1-4.png"></li>
+                <li><img src="/images/3.png"></li>
+                <li><img src="/images/3-4.png"></li>
+                <li><img src="/images/4-4.png"></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="c2-10 c6-2">
+            <ul class="c2-ul c2-ul-1">
+                <li>Постоянный поток заказов</li>
+                <li>Передовое программное обеспечение</li>
+                <li>Личный помощник 24/7</li>
+                <li>Скидки от MOVER и партнеров</li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+
+        <div class="c35-1" style="width: 960px; margin: 0 auto; height: 303px;">
+            <img src="/images/img08.png">
+        </div>
+        <div class="line1">
+            <div class="wline1 sender">
+                Хочу подключиться! Mover, перезвони мне на номер <input type="text" name="phone" value="" placeholder="+7 ( ___ ) _______">
+                <div class="try try_black sendMail">Отправить</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="screen s11">
+    <div class="cd-content" style="position: relative">
+        <div class="s111">
+            <div class="title-black-top white">ОСТАЛИСЬ ВОПРОСЫ?</div>
+            <div class="line"></div>
+            <div class="text-center-white" style="width: auto; font-size: 20px;">Надежная команда в тесной<br>связке с мобильными технологиями</div>
+            <div class="c5-4 c7-3 sender">
+                <div>
+                    <input type="text" name="username" value="" placeholder="Ваше имя" >
+                </div>
+                <div>
+                    <input type="email" name="email" value="" placeholder="Эл. почта" style="border-radius: 0; -webkit-border-radius: 0;">
+                </div>
+                <div>
+                    <textarea name="comment" placeholder="Опишите вашу проблему"></textarea>
+                </div>
+                <div class="c35-1-3 c7-5">
+                    <div class="try sendMail" style="text-align: center;width: 400px;">Отправить</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="footer">
+    <div class="fcont">
+
+        <div>
+            <ul class="ul2">
+                <li>
+                    <ul class="ul1">
+                        <li>Контакты</li>
+                        <li><div class="line line4"></div></li>
+                        <li>г.Москва, Грохольский пер., д. 28</li>
+                        <li><div class="phon">+7 (987) 654 3210</div><a href="mailto:info@mover24.ru">info@mover24.ru</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <ul class="ul1">
+                        <li>Меню</li>
+                        <li><div class="line line4"></div></li>
+                        <li><a href="" onclick="return go('#appstore')">Приложение MOVER</a></li>
+                        <li><a href="" onclick="return go('#tariff')">Тарифы</a></li>
+                        <li><a href="" onclick="return go('#order')">Заказать</a></li>
+                        <li><a href="" onclick="return go('#support')">Помощь</a></li>
+                        <li><a href="" onclick="return go('#connection')">Стать водителем</a></li>
+
+                    </ul>
+                </li>
+
+                <li>
+                    <ul class="ul1">
+                        <li>O MOVER</li>
+                        <li><div class="line line4"></div></li>
+                        <li style="width: 230px; line-height: 18px;">MOVER – сервис по поиску и подбору грузовых автомобилей и комплексных переездов. MOVER - мобильное приложение для вызова грузового такси в режиме 24\7.</li>
+
+                    </ul>
+                </li>
+
+                <li>
+                    <div style="height: 40px;">
+                        <a href="https://www.facebook.com/movermoscow" class="icons" style="margin: 0"><img src="/images/soc_02.png" ></a>
+                        <a href="https://vk.com/mover24" class="icons Icons_Network_vk"><img src="/images/soc_04.png" ></a>
+                        <a href="https://instagram.com/movermoscow/" class="icons Icons_Network_Instagram"><img src="/images/soc_08.png" ></a>
+                        <a href="https://twitter.com/Mover_Russia" class="icons Icons_Network_twitter"><img src="/images/soc_06.png" ></a>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="/images/img02.png">
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="last-footer">
+    <div class="fcont copy">ООО "МУВЕР" &copy; 2016</div>
+</div>
+
+<div id="blackout"></div>
+<div id="popup">
+    <div id="popup-content" class="popup-content">
+
+    </div>
+</div>
+<div id="containers">
+
+    <div id="email" class="sender pwrap pwrap1">
+        <img src="/images/i-phone.png" alt=""/>
+        <div class="popup-title">Станьте первым кто попробует MOVER в действии.<br>Примите участие в закрытом бета-тесте приложения и получите перевозку в подарок!</div>
+        <div class="pwrap2">
+            <input type="text" name="username" value="" placeholder="Имя" style="">
+            <input type="text" name="email" value="" placeholder="Почта" style="">
+            <div class="try sendMail">Отправить</div>
+        </div>
+    </div>
+
+    <div id="route" class="sender pwrap pwrap1">
+        <img src="/images/i-shest.png" alt=""/>
+        <div class="popup-title">Сейчас MOVER работает в тестовом режиме. Оставьте свои контакты и мы с вами свяжемся</div>
+        <div class="pwrap2">
+            <input type="text" name="username" value="" placeholder="Имя" style="">
+            <input type="text" name="email" value="" placeholder="Номер телефона или почта" style="">
+            <div class="try sendMail">Отправить</div>
+        </div>
+    </div>
+
+    <div id="thanks" class="pwrap">
+        <img src="/images/i-success.png" alt=""/>
+        <div class="popup-title">
+            <p>СПАСИБО!</p>Мы обязательно с Вами свяжемся в ближайшее время
+        </div>
+    </div>
+
+    <div id="entry" class="pwrap">
+        <img src="/images/i-success.png" alt=""/>
+        <div class="popup-title">
+            <p>СКОРО!</p>Ещё чуть-чуть и мы вас пустим
+        </div>
+    </div>
+
+    <div id="tariff-s" class="tariffs">
+        <div class="popup-title">
+            <div class="popup-header">
+                Тариф SMALL
+                <span>Прекрасно подходит для квартирного переезда</span>
+                <div class="popup-close">
+                    <img src="/images/close.png" alt=""/>
+                </div>
+            </div>
+            <div>
+                <table>
+                    <tr class="fn">
+                        <td rowspan="2">Тип автомобиля</td>
+                        <td rowspan="2">Цена за 1 час работы<br>в пределах города Москва</td>
+                        <td rowspan="2">Цена за 1 км от МКАД</td>
+                        <td colspan="2">Минимальный заказ</td>
+                    </tr>
+                    <tr>
+                        <td class="tdg">в пределах МКАД</td>
+                        <td class="tdg">с заездом в центр</td>
+                    </tr>
+                    <tr>
+                        <td>Фургон</td>
+                        <td rowspan="5">400 <span>руб./час</span></td>
+                        <td rowspan="5">25 <span>руб.</span></td>
+                        <td rowspan="4" colspan="2">1500 <span>руб.</span></td>
+                    </tr>
+                    <tr>
+                        <td>Тент</td>
+                    </tr>
+                    <tr>
+                        <td>Цельнометаллический</td>
+                    </tr>
+                    <tr>
+                        <td>Рефрежератор</td>
+                    </tr>
+                    <tr>
+                        <td>Бортовая</td>
+                        <td colspan="2">1800 <span>руб.</span></td>
+                    </tr>
+
+                </table>
+                <br>
+                <table>
+                    <tr class="fn">
+                        <td >Грузчики</td>
+                        <td >2 часа</td>
+                        <td >Доп. час</td>
+                    </tr>
+                    <tr>
+                        <td>Обычные</td>
+                        <td>700 <span>руб.</span></td>
+                        <td>300 <span>руб.</span></td>
+                    </tr>
+                    <tr>
+                        <td>Грузчики плюс</td>
+                        <td rowspan="2">1000 <span>руб.</span></td>
+                        <td rowspan="2">400 <span>руб.</span></td>
+                    </tr>
+                    <tr>
+                        <td>Сборщик</td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="tdg1">
+                * Цены могут меняться
+            </div>
+        </div>
+    </div>
+
+    <div id="tariff-m" class="tariffs">
+        <div class="popup-title">
+            <div class="popup-header">
+                Тариф MEDIUM
+                <span>Прекрасно подходит для офисных переездов</span>
+                <div class="popup-close">
+                    <img src="/images/close.png" alt=""/>
+                </div>
+            </div>
+            <div>
+                <table>
+                    <tr class="fn">
+                        <td rowspan="2">Тип автомобиля</td>
+                        <td rowspan="2">Цена за 1 час работы<br>в пределах города Москва</td>
+                        <td rowspan="2">Цена за 1 км от МКАД</td>
+                        <td colspan="2">Минимальный заказ</td>
+                    </tr>
+                    <tr>
+                        <td class="tdg">в пределах МКАД</td>
+                        <td class="tdg">с заездом в центр</td>
+                    </tr>
+
+                    <tr>
+                        <td>Фургон</td>
+                        <td rowspan="3">500 <span>руб./час</span></td>
+                        <td rowspan="3">30 <span>руб.</span></td>
+                        <td rowspan="3">1600 <span>руб.</span></td>
+                        <td rowspan="3">2100 <span>руб.</span></td>
+                    </tr>
+                    <tr>
+                        <td>Тент</td>
+                    </tr>
+                    <tr>
+                        <td>Рефрежератор</td>
+                    </tr>
+
+                    <tr>
+                        <td>Удлиненная тент/фургон</td>
+                        <td rowspan="4">550 <span>руб./час</span></td>
+                        <td rowspan="8">35 <span>руб.</span></td>
+                        <td rowspan="4">1800 <span>руб.</span></td>
+                        <td rowspan="4">2350 <span>руб.</span></td>
+                    </tr>
+                    <tr>
+                        <td>Фермер тент/фургон</td>
+                    </tr>
+                    <tr>
+                        <td>Удлиненная фермер тент/фургон</td>
+                    </tr>
+                    <tr>
+                        <td>Цельнометаллический</td>
+                    </tr>
+
+                    <tr>
+                        <td>Бортовая</td>
+                        <td rowspan="2">600 <span>руб./час</span></td>
+                        <td rowspan="2">1900 <span>руб.</span></td>
+                        <td rowspan="2">2500 <span>руб.</span></td>
+                    </tr>
+                    <tr>
+                        <td>Пирамида</td>
+                    </tr>
+
+                    <tr>
+                        <td>Удлиненная борт</td>
+                        <td rowspan="2">650 <span>руб./час</span></td>
+                        <td rowspan="2">2000 <span>руб.</span></td>
+                        <td rowspan="2">2650 <span>руб.</span></td>
+                    </tr>
+                    <tr>
+                        <td>Удлиненная фермер борт</td>
+                    </tr>
+
+                </table>
+                <br>
+                <table>
+                    <tr class="fn">
+                        <td >Грузчики</td>
+                        <td >2 часа</td>
+                        <td >Доп. час</td>
+                    </tr>
+                    <tr>
+                        <td>Обычные</td>
+                        <td>700 <span>руб.</span></td>
+                        <td>300 <span>руб.</span></td>
+                    </tr>
+                    <tr>
+                        <td>Грузчики плюс</td>
+                        <td rowspan="2">1000 <span>руб.</span></td>
+                        <td rowspan="2">400 <span>руб.</span></td>
+                    </tr>
+                    <tr>
+                        <td>Сборщик</td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="tdg1">
+                * Цены могут меняться
+            </div>
+        </div>
+    </div>
+
+    <div id="tariff-l" class="tariffs">
+        <div class="popup-title">
+            <div class="popup-header">
+                Тариф LARGE
+                <span>Прекрасно подходит для крупногабаритных грузоперевозок</span>
+                <div class="popup-close">
+                    <img src="/images/close.png" alt=""/>
+                </div>
+            </div>
+            <div>
+                <table>
+                    <tr class="fn">
+                        <td rowspan="2">Тип автомобиля</td>
+                        <td rowspan="2">Цена за 1 час работы<br>в пределах города Москва</td>
+                        <td rowspan="2">Цена за 1 км от МКАД</td>
+                        <td colspan="2">Минимальный заказ</td>
+                    </tr>
+                    <tr>
+                        <td class="tdg">в пределах МКАД</td>
+                        <td class="tdg">с заездом в центр</td>
+                    </tr>
+                    <tr>
+                        <td>Фургон</td>
+                        <td rowspan="4">600 <span>руб./час</span></td>
+                        <td rowspan="4">40 <span>руб.</span></td>
+                        <td rowspan="4">3200 <span>руб.</span>/ 4 <span>часа</span></td>
+                        <td rowspan="4">3800 <span>руб.</span>/ 4 <span>часа</span></td>
+                    </tr>
+                    <tr>
+                        <td>Тент</td>
+                    </tr>
+                    <tr>
+                        <td>Бортовая</td>
+                    </tr>
+                    <tr>
+                        <td>Рефрежератор</td>
+                    </tr>
+
+                </table>
+
+                <br>
+                <table>
+                    <tr class="fn">
+                        <td >Грузчики</td>
+                        <td >2 часа</td>
+                        <td >Доп. час</td>
+                    </tr>
+                    <tr>
+                        <td>Обычные</td>
+                        <td>700 <span>руб.</span></td>
+                        <td>300 <span>руб.</span></td>
+                    </tr>
+                    <tr>
+                        <td>Грузчики плюс</td>
+                        <td rowspan="2">1000 <span>руб.</span></td>
+                        <td rowspan="2">400 <span>руб.</span></td>
+                    </tr>
+                    <tr>
+                        <td>Сборщик</td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="tdg1">
+                * Цены могут меняться
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="thanks"></div>
+
+<div class="jcarousel-next" style="display: none"></div>
+<!--<div class="call email"><img src="/images/call.png" alt=""/></div>-->
+
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-71655890-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter34362465 = new Ya.Metrika({
+                    id:34362465,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true,
+                    trackHash:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/34362465" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- CarrotQuest BEGIN -->
+<script type="text/javascript">
+    (function(){
+        if (typeof carrotquest === 'undefined') {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//cdn.carrotquest.io/api.min.js';
+            var x = document.getElementsByTagName('head')[0]; x.appendChild(s);
+
+            carrotquest = {}; window.carrotquestasync = []; carrotquest.settings = {};
+            m = ['connect', 'track', 'identify', 'auth'];
+            function Build(name, args){return function(){window.carrotquestasync.push(name, arguments);} }
+            for (var i = 0; i < m.length; i++) carrotquest[m[i]] = Build(m[i]);
+        }
+    })();
+    carrotquest.connect('3260-cb58a5c30fe5bba43130512d153');
+</script>
+<!-- CarrotQuest END -->
+
+<script type="text/javascript" src="//cdn.callbackhunter.com/cbh.js?hunter_code=daec5f5a29eed8a2f21d57b63d803178" charset="UTF-8"></script>
+
+</body>
+</html>
+
+

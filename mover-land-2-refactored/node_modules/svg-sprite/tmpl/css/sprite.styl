@@ -1,0 +1,21 @@
+{{#hasMixin}}{{mixinName}}()
+  background url({{{sprite}}}) no-repeat   
+
+{{#hasCommon}}.{{commonName}}
+  {{mixinName}}()
+{{/hasCommon}}{{/hasMixin}}
+
+{{^hasMixin}}{{#hasCommon}}.{{/hasCommon}}{{^hasCommon}}.{{/hasCommon}}{{commonName}} 
+  background-image url({{{sprite}}})
+  display inline-block
+  background-repeat no-repeat{{/hasMixin}}
+
+{{#shapes}}
+// i{{#hasCommon}}.{{/hasCommon}}{{^hasCommon}}.{{/hasCommon}}{{commonName}}{{#selector.shape}}{{#escape}}{{expression}}{{/escape}}{{^last}},{{/last}}{{/selector.shape}}
+$varcoords{{expression}} = {{position.relative.xy}} {{width.outer}}px {{height.outer}}px;
+{{#selector.shape}}{{#escape}}{{expression}}{{/escape}}{{^last}},{{/last}}{{/selector.shape}}
+  background-position $varcoords{{expression}}[0] $varcoords{{expression}}[1]
+  width $varcoords{{expression}}[2]
+  height $varcoords{{expression}}[3]
+
+{{/shapes}}
